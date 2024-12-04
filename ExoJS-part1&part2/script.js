@@ -156,3 +156,38 @@
 // } else {
 //     alert("L'utilisateur n'a pas validé.")
 // }
+
+// Part-3
+// Exo-1
+// let number = 0;
+// while (number<100) {
+//     number++;
+//     console.log(number);
+// }
+
+// Exo-2
+// let number = 101
+// while (number>0) {
+//     number = number-1
+//     console.log(number);
+
+// }
+
+// Exo-3
+// let nb1 = 3
+// let nb2 = 6
+// while (nb1+nb2<2023) {
+//     console.log(nb1+nb2);
+//     nb2 = nb1 + nb2
+// }
+
+// Exo-4
+// let message = "Message"
+// let number = 0
+// while (number < 10) {
+//     console.log(message + " " + number);
+//     number++
+//     if (number == 10) {
+//         console.log(message + " " + number + ", C'est le dernier message !");
+//     }
+// }
