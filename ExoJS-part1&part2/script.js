@@ -218,31 +218,31 @@
 // }
 
 // Exo-8
-let number = 0;
-for (let number = 1; number <= 100; number++) {
-    if (number%3!=0 & number%5!=0 & (number%3!=0 & number%5!=0)) {
-        console.log(number);
-    }
-    if (number%3===0 & number%5!=0) {
-        console.log("Fizz");
-    }
-    if (number%5===0 & number%3!=0) {
-        console.log("Buzz");
-    }
-    if (number%3===0 & number%5===0) {
-        console.log("FizzBuzz");    
-    }
-}
+// let number = 0;
+// for (let number = 1; number <= 100; number++) {
+//     if (number%3!=0 & number%5!=0 & (number%3!=0 & number%5!=0)) {
+//         console.log(number);
+//     }
+//     if (number%3===0 & number%5!=0) {
+//         console.log("Fizz");
+//     }
+//     if (number%5===0 & number%3!=0) {
+//         console.log("Buzz");
+//     }
+//     if (number%3===0 & number%5===0) {
+//         console.log("FizzBuzz");    
+//     }
+// }
 
 // Exo-9
 // let string = "";
 // let number =0;
 // for (let number = 1; number <= 10; number++) {
 //     if (number<10) {
-//         string=string + parseFloat(number) + "-"
+//         string=string + number + "-"
 //     }
 //     else{
-//         string=string + parseFloat(number)
+//         string=string + number
 //     }
 // }
 // console.log(string);
