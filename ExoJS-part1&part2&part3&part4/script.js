@@ -288,18 +288,40 @@
 
 // Exo-5
 
-// let mois = [" Janvier", " Février", " Mars", " Avril", " Mai", " Juin", " Juillet", " Août", " Septembre", " Octobre", " Novembre", " Décembre"]
-// let semaine = [" Lundi", " Mardi", " Mercredi", " Jeudi", " Vendredi", " Samedi", " Dimanche"]
-// let month = [" January", " February", " March", " April", " May", " June", " July", " August", " September", " October", " November", " December"]
-// let week = [" Monday", " Tuesday", " Wednesday", " Thursday", " Friday", " Saturday", " Sunday"]
+let mois = [" Janvier", " Février", " Mars", " Avril", " Mai", " Juin", " Juillet", " Août", " Septembre", " Octobre", " Novembre", " Décembre"]
+let semaine = [" Lundi", " Mardi", " Mercredi", " Jeudi", " Vendredi", " Samedi", " Dimanche"]
+let month = [" January", " February", " March", " April", " May", " June", " July", " August", " September", " October", " November", " December"]
+let week = [" Monday", " Tuesday", " Wednesday", " Thursday", " Friday", " Saturday", " Sunday"]
 
-// let fr = [mois, semaine]
-// let eng = [month, week]
+let fr = [mois, semaine]
+let eng = [month, week]
 
-// let tableau = [fr, eng]
+let tableau = [fr, eng]
+let stringMois = ""
+let stringSemaine = ""
 
 // console.log(mois[10]+ " -" +week[4] + " -" + month + " -" + semaine);
-// console.log(tableau);
+console.log(tableau[0][0][10]);
+console.log(tableau[1][1][4]);
+
+for (let i = 0; i < month.length; i++) {
+    if (i < 11) {
+        stringMois += tableau[1][0][i] + " -"
+    } else {
+        stringMois += tableau[1][0][i]
+    }
+}
+console.log(stringMois);
+
+for (let j = 0; j < semaine.length; j++) {
+    if (j < 6) {
+        stringSemaine += tableau[0][1][j] + " -"
+    } else {
+        stringSemaine += tableau[0][1][j]
+    }
+}
+console.log(stringSemaine);
+
 
 // Exo-6
 
