@@ -246,3 +246,73 @@
 //     }
 // }
 // console.log(string);
+
+
+// Part-4
+// Exo-1
+// let tableau = [" Janvier", " Février", " Mars", " Avril", " Mai", " Juin", " Juillet", " Août", " Septembre", " Octobre", " Novembre", " Décembre"]
+// let tableau = []
+// tableau[1] = "Janvier"
+// tableau[2] = "Février"
+// tableau[3] = "Mars"
+// tableau[4] = "Avril"
+// tableau[5] = "Mai"
+// tableau[6] = "Juin"
+// tableau[7] = "Juillet"
+// tableau[8] = "Août"
+// tableau[9] = "Septembre"
+// tableau[10] = "Octobre"
+// tableau[11] = "Novembre"
+// tableau[12] = "Décembre"
+// console.log(tableau);
+// console.table(tableau);
+
+// Exo-2
+// let tableau = [" Monday", " Tuesday", " Wednesday", " Thursday", " Friday", " Saturday", " Sunday"]
+// console.log(tableau[4]);
+
+// Exo-3
+// let tableau = [" Lundi", " Mardi", " Mercredi", " Jeudi", " Vendredi", " Samedi", " Dimanche"]
+// console.log(tableau[tableau.length - 2]);
+// console.log(tableau[5]);
+
+// Exo-4
+// let tableau = [" Janvier", " Février", " Mars", " Avril", " Mai", " Juin", " Juillet", " Août", " Septembre", " Octobre", " Novembre", " Décembre"]
+// tableau.forEach((item, index) => {
+//     console.log(index+1, item);  
+// })
+
+// for (let i = 0; i < tableau.length; i++) {
+//     console.log(i +1 +" -"+tableau[i]);
+// }
+
+// Exo-5
+
+// let mois = [" Janvier", " Février", " Mars", " Avril", " Mai", " Juin", " Juillet", " Août", " Septembre", " Octobre", " Novembre", " Décembre"]
+// let semaine = [" Lundi", " Mardi", " Mercredi", " Jeudi", " Vendredi", " Samedi", " Dimanche"]
+// let month = [" January", " February", " March", " April", " May", " June", " July", " August", " September", " October", " November", " December"]
+// let week = [" Monday", " Tuesday", " Wednesday", " Thursday", " Friday", " Saturday", " Sunday"]
+
+// let fr = [mois, semaine]
+// let eng = [month, week]
+
+// let tableau = [fr, eng]
+
+// console.log(mois[10]+ " -" +week[4] + " -" + month + " -" + semaine);
+// console.log(tableau);
+
+// Exo-6
+
+let princess = ["Cendrillon"]
+console.log(princess);
+
+let otherPrincess = princess.push("Mulan", "Peach", "Raiponce", "Belle", "Vaiana", "Zelda", "Jasmine")
+console.log(princess);
+
+princess.splice(2,1)
+princess.splice(5,1)
+console.log(princess);
+
+princess.sort()
+console.log(princess);
+console.log("Il y a "+princess.length+" Princesses dans le tableau" );
