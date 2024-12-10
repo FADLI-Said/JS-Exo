@@ -166,11 +166,10 @@
 // }
 
 // Exo-2
-// let number = 101
-// while (number>0) {
-//     number = number-1
+// let number = 100
+// while (number >= 0) {
 //     console.log(number);
-
+//     number = number - 1
 // }
 
 // Exo-3
@@ -196,13 +195,13 @@
 // let message = "Vendredi 13";
 // let i = 0;
 // for (let i = 0; i < 13; i++) {
-//     console.log(message);   
+//     console.log(message);
 // }
 
 // Exo-6
 // let number = 0;
 // for (let number = 0; number < 100; number=number+3) {
-//     console.log(number);   
+//     console.log(number);
 // }
 
 // Exo-7
@@ -210,10 +209,10 @@
 // for (let number = 20; number >= 0; number=number-1) {
 //     if (number===20) {
 //         console.log("Start !!");
-//     }   
-//     console.log(number);  
+//     }
+//     console.log(number);
 //     if (number===0) {
-//         console.log("Finish !!");      
+//         console.log("Finish !!");
 //     }
 // }
 
@@ -230,7 +229,7 @@
 //         console.log("Buzz");
 //     }
 //     if (number%3==0 & number%5==0) {
-//         console.log("FizzBuzz");    
+//         console.log("FizzBuzz");
 //     }
 // }
 
@@ -279,7 +278,7 @@
 // Exo-4
 // let tableau = [" Janvier", " Février", " Mars", " Avril", " Mai", " Juin", " Juillet", " Août", " Septembre", " Octobre", " Novembre", " Décembre"]
 // tableau.forEach((item, index) => {
-//     console.log(index+1, item);  
+//     console.log(index+1, item);
 // })
 
 // for (let i = 0; i < tableau.length; i++) {
@@ -288,39 +287,39 @@
 
 // Exo-5
 
-let mois = [" Janvier", " Février", " Mars", " Avril", " Mai", " Juin", " Juillet", " Août", " Septembre", " Octobre", " Novembre", " Décembre"]
-let semaine = [" Lundi", " Mardi", " Mercredi", " Jeudi", " Vendredi", " Samedi", " Dimanche"]
-let month = [" January", " February", " March", " April", " May", " June", " July", " August", " September", " October", " November", " December"]
-let week = [" Monday", " Tuesday", " Wednesday", " Thursday", " Friday", " Saturday", " Sunday"]
+// let mois = [" Janvier", " Février", " Mars", " Avril", " Mai", " Juin", " Juillet", " Août", " Septembre", " Octobre", " Novembre", " Décembre"]
+// let semaine = [" Lundi", " Mardi", " Mercredi", " Jeudi", " Vendredi", " Samedi", " Dimanche"]
+// let month = [" January", " February", " March", " April", " May", " June", " July", " August", " September", " October", " November", " December"]
+// let week = [" Monday", " Tuesday", " Wednesday", " Thursday", " Friday", " Saturday", " Sunday"]
 
-let fr = [mois, semaine]
-let eng = [month, week]
+// let fr = [mois, semaine]
+// let eng = [month, week]
 
-let tableau = [fr, eng]
-let stringMois = ""
-let stringSemaine = ""
+// let tableau = [fr, eng]
+// let stringMois = ""
+// let stringSemaine = ""
 
 // console.log(mois[10]+ " -" +week[4] + " -" + month + " -" + semaine);
-console.log(tableau[0][0][10]);
-console.log(tableau[1][1][4]);
+// console.log(tableau[0][0][10]);
+// console.log(tableau[1][1][4]);
 
-for (let i = 0; i < month.length; i++) {
-    if (i < 11) {
-        stringMois += tableau[1][0][i] + " -"
-    } else {
-        stringMois += tableau[1][0][i]
-    }
-}
-console.log(stringMois);
+// for (let i = 0; i < month.length; i++) {
+//     if (i < 11) {
+//         stringMois += tableau[1][0][i] + " -"
+//     } else {
+//         stringMois += tableau[1][0][i]
+//     }
+// }
+// console.log(stringMois);
 
-for (let j = 0; j < semaine.length; j++) {
-    if (j < 6) {
-        stringSemaine += tableau[0][1][j] + " -"
-    } else {
-        stringSemaine += tableau[0][1][j]
-    }
-}
-console.log(stringSemaine);
+// for (let j = 0; j < semaine.length; j++) {
+//     if (j < 6) {
+//         stringSemaine += tableau[0][1][j] + " -"
+//     } else {
+//         stringSemaine += tableau[0][1][j]
+//     }
+// }
+// console.log(stringSemaine);
 
 
 // Exo-6
